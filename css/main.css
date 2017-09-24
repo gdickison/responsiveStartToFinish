@@ -1,16 +1,24 @@
-<<<<<<< HEAD
-=======
-/*1. Config files and helpers*/
+/* 1. Config files and helpers */
+logo img {
+	max-width: 25%;
+	max-height: auto;
+}
+
+.join-reason img {
+	max-width: 25%;
+	max-height: auto;
+}
+
+/* 2. Vendor stuff */
 
 
-/*2. Vendor*/
+/* 3. Base styles */
 
 
-/*3. Base styles*/
+/* 4. Layout */
 
 
-/*4. Layout*/
+/* 5. Components */
 
 
-/*5. Components*/
->>>>>>> 5d812f0bd60dbbebc99527738730c79520b3febf
+/* 6. Anything else */
