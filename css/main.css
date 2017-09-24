@@ -438,3 +438,65 @@ template {
 [hidden] {
   display: none;
 }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+logo img {
+  margin-top: 16px;
+  background-color: transparent;
+  max-width: 35%;
+  max-height: auto;
+}
+
+.main-nav {
+  width: 60%;
+}
+
+.hero {
+  padding: 200px 0 50px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#1b4eff), to(#00ecff));
+  background: -webkit-linear-gradient(left, #1b4eff, #00ecff);
+  background: -o-linear-gradient(left, #1b4eff, #00ecff);
+  background: linear-gradient(to right, #1b4eff, #00ecff);
+  color: white;
+  text-align: center;
+}
+
+.hero img {
+  margin-top: 22px;
+  max-width: 100%;
+  height: auto;
+}
+
+.why-join img {
+  max-height: 70px;
+  max-width: 70px;
+}
